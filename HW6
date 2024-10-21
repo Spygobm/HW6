@@ -1,0 +1,19 @@
+matrix = [
+    [56,327,72,48,256,378,398,78436],
+    [36,78,120,84,89,49,4809,849],
+    [27,18,90,389083,497,893,8378,49],
+    [8748,849,626,4876,676,3,39,3676],
+    [9849,74954,479,48,536,6378,638,73]
+]
+number_of_columns = len(matrix[0])
+
+number_rows_in_list = len(matrix)
+print("This list has {} rows".format(number_rows_in_list))
+print("this list has {} columns".format(number_of_columns)) 
+
+for row in range(len(matrix)):
+    for column in range(len(matrix[row])):
+        print(matrix[row][column],end="\t")
+
+    print()
+
